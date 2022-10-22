@@ -10,6 +10,7 @@ body{
     color:var(--primary-text-color) ;
     font-style: normal;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 *,
 *::before,
@@ -115,6 +116,7 @@ justify-content: center;
     align-items: center;
 }
 .hero-title{
+width: 696px;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -122,8 +124,11 @@ line-height: 60px;
 text-transform:uppercase;
 letter-spacing: 0.06em;
 color: var(--thirdly-text-color);
+margin-left: auto;
+margin-right: auto;
 }
 .hero-button{
+    margin-top: 30px;
     background: var(--accent-color);
     color: var(--thirdly-text-color);
     border-radius: 4px;
@@ -158,6 +163,16 @@ color: var(--thirdly-text-color);
     background-position: center;
 }
 /* section fetures */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .features{
     display: flex;
     justify-content: space-between;
@@ -230,12 +245,6 @@ margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-}
-.examples-link{
-    margin-top: 30px;
-    margin-left: 30px;
-    width: calc((100% - 30px * 3) /3);
-    margin: 15px;
 }
 .features-icon{
     width: 270px;
@@ -344,4 +353,16 @@ address{
     justify-content: center;
     display: flex;
     margin-bottom: 34px;}
-
+.examples-linkportfolio{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: calc((100% - 30px * 3) /3);
+    margin: 15px;
+    border: 1px solid #EEEEEE;
+}
+.examples-linkportfolio h2{
+    margin-left: 24px;
+}
+.examples-linkportfolio p{
+    margin-left: 24px;
+}

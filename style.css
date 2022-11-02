@@ -221,7 +221,7 @@ margin-right: auto;
     display: flex;
     justify-content: space-between}
 .work-name{
-    position: absolute;
+    position: relative;
     margin-top: -70px;
     width: 370px;
     height: 70px;
